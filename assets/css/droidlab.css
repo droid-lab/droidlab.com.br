@@ -1,0 +1,126 @@
+body {
+    background-color: #523866;
+    font-family: 'Montserrat', sans-serif;
+    color: #ECF4ED;
+    font-weight: normal;
+}
+
+#container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2147483647;
+    height: 100%;
+}
+
+#infos {
+    position: absolute;
+    bottom: -150px;
+    width: 100%;
+    text-align: center;
+}
+
+#infos .margin-bottom {
+    margin-bottom: 30px;
+}
+
+#infos h2 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+#infos h3 {
+    font-size: 1em;
+    color: #77C0D5;
+}
+
+#infos h4 {
+    font-size: 0.9em;
+}
+
+#logo {
+    background-image: url('../../assets/images/logo.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+    left: 50%;
+    top: 40%;
+    position: absolute;
+    margin: -250px 0 0 -250px;
+}
+
+@media screen and (max-height: 795px) {
+    #logo {
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 352px;
+        width: 341px;
+        left: 50%;
+        top: 40%;
+        position: absolute;
+        margin: -176px 0 0 -170px;
+    }
+    #infos h2 {
+        font-size: 1em;
+    }
+    #infos h3 {
+        font-size: 0.8em;
+        color: #77C0D5;
+    }
+    #infos h4 {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #logo {
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 352px;
+        width: 341px;
+        left: 50%;
+        top: 40%;
+        position: absolute;
+        margin: -176px 0 0 -170px;
+    }
+    #infos h2 {
+        font-size: 1em;
+    }
+    #infos h3 {
+        font-size: 0.8em;
+        color: #77C0D5;
+    }
+    #infos h4 {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #logo {
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 280px;
+        width: 280px;
+        left: 50%;
+        top: 33%;
+        position: absolute;
+        margin: -140px 0 0 -140px;
+    }
+    #infos {
+        position: absolute;
+        bottom: -145px;
+        width: 100%;
+        text-align: center;
+    }
+    #infos h2 {
+        font-size: 0.8em;
+    }
+}
+
+a {
+    color: #77C0D5 !important;
+    text-decoration: none !important;
+}
