@@ -1,2 +1,2 @@
-# www.droidlab.com.br
+# droidlab.com.br
 This is our website :D
